@@ -121,6 +121,16 @@ namespace Solutions
 
             //Part 2 hardcoded for my input shape
 
+            /*
+                My input shape
+                   0      50    150   200
+              0    *****  back  right
+              50   ***** bottom *****
+              100   left front  *****
+              150   top  *****  *****
+              200
+            */
+
             List<List<char>> top = new List<List<char>>();
             List<List<char>> bottom = new List<List<char>>();
             List<List<char>> left = new List<List<char>>();
